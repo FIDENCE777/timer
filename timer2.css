@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background: #0f172a;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #1e293b;
+    padding: 40px;
+    border-radius: 20px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 10px 40px #00000050;
+}
+
+.container h1:first-child {
+    color: #a78bfa;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+.inputs {
+    display: flex;
+    gap: 10px;
+}
+
+.inputs input {
+    width: 33.33%;
+    padding: 15px 5px;
+    background: #334155;
+    border: 1px solid #475569;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+}
+
+.inputs input:focus {
+    border-color: #a78bfa;
+}
+
+#timer {
+    color: white;
+    font-size: 42px;
+    margin: 35px 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.buttons button {
+    flex: 1;
+    padding: 13px 5px;
+    border: none;
+    border-radius: 10px;
+    background: #7c3aed;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttons button:hover {
+    background: #a78bfa;
+    transform: translateY(-3px);
+}
+
+.buttons button:nth-child(2) {
+    background: #475569;
+}
+
+.buttons button:nth-child(3) {
+    background: #334155;
+}
+.clock {
+    margin-left: 100px;
+    text-align: center;
+    background: #1f2937;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+h2 {
+    color: white;
+    font-size: 60px;
+}
+
+.new {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #22c55e;
+    color: white;
+    font-size: 16px;
+}
+
+
+.clock2 {
+    margin-top: 50px;
+    text-align: center;
+    background: #111827;
+    padding: 60px 80px;
+    border: 1px solid #263449;
+    border-radius: 25px;
+    box-shadow: 0 0 50px rgba(59, 130, 246, 0.15);
+}
+
+.clock-title {
+    color: #60a5fa;
+    font-size: 14px;
+    letter-spacing: 6px;
+    margin-bottom: 25px;
+}
+.head {
+    font-size: 40px;
+    color: wheat;
+}

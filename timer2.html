@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="timer2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>FOCUS TIMER</h1>
+
+      <div class="inputs">
+        <input type="number" id="hour" placeholder="HH" />
+        <input type="number" id="minute" placeholder="MM" />
+        <input type="number" id="second" placeholder="SS" />
+      </div>
+
+      <h1 id="timer">00:00:00</h1>
+
+      <div class="buttons">
+        <button onclick="startTimer()">START</button>
+        <button onclick="stopTimer()">STOP</button>
+        <button onclick="resetTimer()">RESET</button>
+      </div>
+    </div>
+
+    <div class="clock">
+    <h2 id="time">00:00:00</h2>
+
+    <button class="new" onclick="startClock()">START</button>
+    <button class="new" onclick="stopClock()">STOP</button>
+    <button class="new" onclick="resetTimer2()">RESET</button>
+    <div class="clock2">
+    <p class="clock-title">WORLD CLOCK</p>
+    <h3 class="head" id="timers">00:00:00</h3>
+  <div>
+   </div>
+    <script src="./timer.js"></script>
+  </body>
+</html>
